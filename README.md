@@ -40,3 +40,8 @@ hadoop
 ```bash
 hadoop
 ```
+
+### Rerun Container
+
+If the container has been stopped and restarted, you will need to manually start the services again.
+See [rerun.md](rerun.md) for step-by-step instructions.
