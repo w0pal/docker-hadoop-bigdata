@@ -2,6 +2,8 @@
 
 This repository provides a pre-configured Docker environment to run Apache Hadoop 3.3.6 in **pseudo-distributed mode** on Ubuntu 20.04.
 
+**The image now available on [Docker Hub](https://hub.docker.com/repository/docker/w0pal/hadoop-custom)**
+
 ## ⚙️ Features
 
 - Hadoop 3.3.6 pre-installed
