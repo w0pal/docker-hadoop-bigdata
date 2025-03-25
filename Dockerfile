@@ -46,6 +46,13 @@ COPY config/ $HADOOP_HOME/etc/hadoop/
 COPY entrypoint.sh /entrypoint.sh
 RUN chmod +x /entrypoint.sh
 
+# Copy MapReduce scripts
+COPY python/mapper.py /home/hadoop/mapper.py
+COPY python/reducer.py /home/hadoop/reducer.py
+
+# Make MapReduce scripts executable
+RUN chmod +x /home/hadoop/mapper.py /home/hadoop/reducer.py
+
 RUN chown -R hadoop:hadoop /home/hadoop
 
 EXPOSE 9870 8088 22

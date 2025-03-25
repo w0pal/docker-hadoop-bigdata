@@ -43,6 +43,10 @@ hadoop
 hadoop
 ```
 
+## Running MapReduce Job
+
+See [mapreduce.md](mapreduce.md) for more!
+
 ### Rerun Container
 
 If the container has been stopped and restarted, you will need to manually start the services again.
