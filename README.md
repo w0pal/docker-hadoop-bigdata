@@ -43,6 +43,17 @@ hadoop
 hadoop
 ```
 
+## DataNode Not Running as default
+
+You can delete and chmod the datanode directory:
+
+```bash
+rm -r /path/to/datanode
+sudo chmod 755 /path/to/datanode
+stop-all.sh
+start-all.sh
+```
+
 ## Running MapReduce Job
 
 See [mapreduce.md](mapreduce.md) for more!
